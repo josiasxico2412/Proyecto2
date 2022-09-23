@@ -1,0 +1,35 @@
+/*para el contenido del cuerpo de la pagina*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2b0abb;
+}
+
+/*para las cajas de texto del container*/
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  color: #fff;
+}
+
+/*para el tamaño del numero*/
+span {
+  font-size: 10em;
+}
+
+/*para los botones*/
+button {
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  align-items: center;
+}
